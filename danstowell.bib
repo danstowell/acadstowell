@@ -1,0 +1,482 @@
+@inproceedings{Stowell:2015b,
+	author={Stowell, D. and Clayton, D.},
+	title={Acoustic event detection for multiple overlapping similar sources },
+	pages={},
+	booktitle={Applications of Signal Processing to Audio and Acoustics (WASPAA), 2015 IEEE Workshop on},
+	year={2015},
+	url={http://arxiv.org/abs/1503.07150},
+	abstract={Many current paradigms for acoustic event detection (AED) are not adapted to the organic variability of natural sounds, and/or they assume a limit on the number of simultaneous sources: often only one source, or one source of each type, may be active. These aspects are highly undesirable for applications such as bird population monitoring. We introduce a simple method modelling the onsets, durations and offsets of acoustic events to avoid intrinsic limits on polyphony or on inter-event temporal patterns. We evaluate the method in a case study with over 3000 zebra finch calls. In comparison against a HMM-based method we find it more accurate at recovering acoustic events, and more robust for estimating calling rates. },
+}
+
+@article{Stowell:2015,
+	title={Detection and classification of acoustic scenes and events},
+	journal={{IEEE} Transactions on Multimedia},
+	author={Stowell, D. and Giannoulis, D. and Benetos, E. and Lagrange, M. and Plumbley, M. D.},
+	year={2015},
+	doi={10.1109/TMM.2015.2428998},
+	keywords={dcase},
+	abstract={For intelligent systems to make best use of the audio modality, it is important that they can recognise not just
+speech and music, which have been researched as specific tasks, but also general sounds in everyday environments.
+To stimulate research in this field we conducted a public research challenge: the IEEE Audio and Acoustic Signal
+Processing Technical Committee challenge on Detection and Classification of Acoustic Scenes and Events (DCASE).
+In this paper we report on the state of the art in automatically classifying audio scenes, and automatically detecting
+and classifying audio events. We survey prior work as well as the state of the art represented by the submissions to
+the challenge from various research groups. We also provide detail on the organisation of the challenge, so that our
+experience as challenge hosts may be useful to those organising challenges in similar domains. We created new audio
+datasets and baseline systems for the challenge: these, as well as some submitted systems, are publicly available
+under open licenses, to serve as benchmark for further research in general-purpose machine listening.},
+}
+
+@article{Stowell:2014c,
+	author={Stowell, D.},
+	title={Renewal processes and semi-Markov processes in animal vocalisations: A response to Kershenbaum et al.},
+	year={2014},
+	url={http://rspb.royalsocietypublishing.org/content/281/1792/20141370.e-letters},
+	journal={Proceedings of the Royal Society B},
+	volume={281},
+	number={eLetters},
+}
+
+@article{Stowell:2014b,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Title = {Automatic large-scale classification of bird sounds is strongly improved by unsupervised feature learning},
+	journal = {PeerJ},
+	volume={2},
+	pages = {e488},
+	doi = {10.7717/peerj.488},
+	Year = {2014},
+	Eprint = {arXiv:1405.6524},
+	abstract = {Automatic species classification of birds from their sound is a computational tool of increasing importance in ecology, conservation monitoring and vocal communication studies. To make classification useful in practice, it is crucial to improve its accuracy while ensuring that it can run at big data scales. Many approaches use acoustic measures based on spectrogram-type data, such as the Mel-frequency cepstral coefficient (MFCC) features which represent a manually-designed summary of spectral information. However, recent work in machine learning has demonstrated that features learnt automatically from data can often outperform manually-designed feature transforms. Feature learning can be performed at large scale and “unsupervised”, meaning it requires no manual data labelling, yet it can improve performance on “supervised” tasks such as classification. In this work we introduce a technique for feature learning from large volumes of bird sound recordings, inspired by techniques that have proven useful in other domains. We experimentally compare twelve different feature representations derived from the Mel spectrum (of which six use this technique), using four large and diverse databases of bird vocalisations, classified using a random forest classifier. We demonstrate that in our classification tasks, MFCCs can often lead to worse performance than the raw Mel spectral data from which they are derived. Conversely, we demonstrate that unsupervised feature learning provides a substantial boost over MFCCs and Mel spectra without adding computational complexity after the model has been trained. The boost is particularly notable for single-label classification tasks at large scale. The spectro-temporal activations learned through our procedure resemble spectro-temporal receptive fields calculated from avian primary auditory forebrain. However, for one of our datasets, which contains substantial audio data but few annotations, increased performance is not discernible. We study the interaction between dataset characteristics and choice of feature representation through further empirical analysis.},
+}
+
+@article{Stowell:2014,
+	title={Large-scale analysis of frequency modulation in birdsong databases},
+	journal={Methods in Ecology and Evolution},
+  author={Stowell, D. and Plumbley, M. D.},
+  year={2014},
+  doi={10.1111/2041-210X.12223},
+  url={http://arxiv.org/abs/1311.4764},
+  volume={},
+  abstract={Birdsong often contains large amounts of rapid frequency modulation (FM). It is believed that the use or otherwise of FM is adaptive to the acoustic environment and also that there are specific social uses of FM such as trills in aggressive territorial encounters. Yet temporal fine detail of FM is often absent or obscured in standard audio signal analysis methods such as Fourier analysis or linear prediction. Hence, it is important to consider high-resolution signal processing techniques for analysis of FM in bird vocalizations. If such methods can be applied at big data scales, this offers a further advantage as large data sets become available.
+    We introduce methods from the signal processing literature which can go beyond spectrogram representations to analyse the fine modulations present in a signal at very short time-scales. Focusing primarily on the genus Phylloscopus, we investigate which of a set of four analysis methods most strongly captures the species signal encoded in birdsong. We evaluate this through a feature selection technique and an automatic classification experiment. In order to find tools useful in practical analysis of large data bases, we also study the computational time taken by the methods, and their robustness to additive noise and MP3 compression.
+    We find three methods which can robustly represent species-correlated FM attributes and can be applied to large data sets, and that the simplest method tested also appears to perform the best. We find that features representing the extremes of FM encode species identity supplementary to that captured in frequency features, whereas bandwidth features do not encode additional information.
+    FM analysis can extract information useful for bioacoustic studies, in addition to measures more commonly used to characterize vocalizations. Further, it can be applied efficiently across very large data sets and archives.},
+  annote={fmbird
+},
+}
+
+@inproceedings{Stowell:2013n,
+  title={Feature design for multilabel bird song classification in noise (NIPS4B challenge)},
+  author={Stowell, D. and Plumbley, M. D.},
+  year={2013},
+  booktitle={Proceedings of NIPS4b: Neural Information Processing Scaled for Bioacoustics, from Neurons to Big Data},
+  abstract={},
+  annote={My NIPS4b tech note
+},
+}
+
+% Stowell
+@article{Barchiesi:2015,
+  title={Acoustic Scene Classification: Classifying environments from the sounds they produce},
+  author={Barchiesi, D. and Giannoulis, D. and Stowell, D. and Plumbley, M. D.},
+  journal={IEEE Signal Processing Magazine},
+  year={2015},
+  volume={32},
+  number={3},
+  pages={16--34},
+  doi={10.1109/MSP.2014.2326181},
+  abstract={In this article we present an account of the state-of-the-art in acoustic scene classification ({ASC}), the task of classifying environments from the sounds they produce. Starting from a historical review of previous research in this area, we define a general framework for {ASC} and present different implementations of its components. We then describe a range of different algorithms submitted for a data challenge that was held to provide a general and fair benchmark for {ASC} techniques. The dataset recorded for this purpose is presented, along with the performance metrics that are used to evaluate the algorithms and statistical significance tests to compare the submitted methods. We use a baseline method that employes {MFCCs}, {GMMs} and a maximum likelihood criterion as a benchmark, and only find sufficient evidence to conclude that three algorithms significantly outperform it. We also evaluate the human classification accuracy in performing a similar classification task. The best performing algorithm achieves a mean accuracy that matches the median accuracy obtained by humans, and common pairs of classes are misclassified by both computers and humans. However, all acoustic scenes are correctly classified by at least some individuals, while there are scenes that are misclassified by all algorithms.},
+}
+
+@inproceedings{Stowell:2014f,
+  title={An open dataset for research on audio field recording archives: freefield1010},
+  booktitle={Proceedings of the Audio Engineering Society 53rd Conference on Semantic Audio (AES53)},
+  author={Stowell, D. and Plumbley, M. D.},
+  year={2014},
+  publisher={Audio Engineering Society},
+  doi={},
+  abstract={We introduce a free and open dataset of 7690 audio clips sampled from the field-recording tag in the Freesound audio archive. The dataset is designed for use in research related to data mining in audio archives of field recordings / soundscapes. Audio is standardised, and audio and metadata are Creative Commons licensed. We describe the data preparation process, characterise the dataset descriptively, and illustrate its use through an auto-tagging experiment. },
+  annote={This won the SoundSoftware prize for ``Reproducibility-enabling work''. Review report:
+
+``Panel's comments: This submission received very high scores for sustainability planning and potential to enable high-quality research. The authors have taken a pragmatic approach to availability and portability of the dataset in terms of data formats and packaging, have used redundant hosting, and have documented the dataset well. External reviewers described this submission as lowering the threshold for sound classification and auto-tagging research.''
+
+	http://soundsoftware.ac.uk/rr-prize-aes53-winners
+},
+}
+
+@incollection{Stowell:2014o,
+	title={Case study: How {OpenStreetMap} used humans and machines to map affected areas after {T}yphoon {H}aiyan},
+	author={Stowell, D.},
+	booktitle={The Verification Handbook},
+	editor={Silverman, C.},
+	url={http://verificationhandbook.com/book/chapter7.1.php},
+	year={2014},
+	month={Jan},
+	publisher={European Journalism Centre},
+}
+% Stowell
+@inproceedings{Giannoulis:2013b,
+	author={Giannoulis, D. and Benetos, E. and Stowell, D. and Rossignol, M. and Lagrange, M. and Plumbley, M. D.},
+	title={Detection and classification of acoustic scenes and events: an {IEEE AASP} challenge},
+	booktitle={Proceedings of the Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)},
+	year={2013},
+  doi={},
+  abstract={},
+  annote={
+},
+}
+
+% Stowell
+@inproceedings{Giannoulis:2013a,
+	author={Giannoulis, D. and Stowell, D. and Benetos, E. and Rossignol, M. and Lagrange, M. and Plumbley, M. D.},
+	title={A database and challenge for acoustic scene classification and event detection},
+	booktitle={Proceedings of the European Signal Processing Conference (EUSIPCO)},
+	year={2013},
+	pages={1--5},
+  doi={},
+  abstract={},
+  annote={
+},
+}
+
+% Stowell
+@inproceedings{Giannoulis:2013,
+  title={A Database and Challenge for Acoustic Scene Classification and Event Detection},
+  author={Giannoulis, D. and Stowell, D. and Benetos, E. and Rossignol, M. and Lagrange, M. and Plumbley, M. D.},
+  booktitle={Proceedings of the European Signal Processing Conference (EUSIPCO 2013)},
+  year={2013},
+  doi={},
+  url={},
+  abstract={An increasing number of researchers work in computational auditory scene analysis (CASA). However, a set of tasks, each with a well-defined evaluation framework and commonly used datasets do not yet exist. Thus, it is difficult for results and algorithms to be compared fairly, which hinders research on the field. In this paper we will introduce a newly-launched public evaluation challenge dealing with two closely related tasks of the field: acoustic scene classification and event detection. We give an overview of the tasks involved; describe the processes of creating the dataset; and define the evaluation metrics. Finally, illustrations on results for both tasks using baseline methods applied on this dataset are presented, accompanied by open-source code.
+},
+  annote={
+},
+}
+
+% Stowell
+@inproceedings{Stowell:2013c,
+   author = {Stowell, D. and Plumbley, M.~D.},
+    title = {Acoustic detection of multiple birds in environmental audio by Matching Pursuit},
+     archivePrefix = "arXiv",
+     year = {2013},
+     booktitle = {Proc ICML 2013 Workshop on Machine Learning for Bioacoustics},
+     abstract= {We describe a submission to the ICML 2013 Bird Challenge, in which we explore the use of sparse representations as an advance on the standard technique of cross-correlation template matching in time-frequency representations. The Matching Pursuit algorithm is used to represent the signal as a sparse set of activations of templates derived from the challenge training audio.
+}
+}
+
+@inproceedings{Stowell:2013d,
+   author = {Stowell, D. and Mu{\v s}evi{\v c}, S. and Bonada, J. and Plumbley, M.~D.},
+    title = {Improved multiple birdsong tracking with distribution derivative method and {M}arkov renewal process clustering},
+archivePrefix = "arXiv",
+   eprint = {1302.3462},
+     year = {2013},
+     note = {preprint arXiv:1302.3642},
+     ooktitle = {Proc Int Conf Audio and Acoustic Signal Processing (ICASSP)},
+     booktitle = {Proceedings of the International Conference on Audio and Acoustic Signal Processing (ICASSP)},
+     abstract= {Segregating an audio mixture containing multiple simultaneous bird sounds is a challenging task. However, birdsong often contains rapid pitch modulations, and these modulations carry information which may be of use in automatic recognition. In this paper we demonstrate that an improved spectrogram representation, based on the distribution derivative method, leads to improved performance of a segregation algorithm which uses a Markov renewal process model to track vocalisation patterns consisting of singing and silences. }
+}
+
+@article{Stowell:2013,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Title = {Segregating event streams and noise with a {M}arkov renewal process model},
+	Year = {2013},
+	Journal = {Journal of Machine Learning Research},
+	volume = {14},
+	pages = {1891--1916},
+	Note = {preprint arXiv:1211.2972},
+	url = {http://jmlr.org/papers/v14/stowell13a.html},
+	abstract={We describe an inference task in which a set of timestamped event observations must be clustered into an unknown number of temporal sequences with independent and varying rates of observations. Various existing approaches to multi-object tracking assume a fixed number of sources and/or a fixed observation rate; we develop an approach to inferring structure in timestamped data produced by a mixture of an unknown and varying number of similar Markov renewal processes, plus independent clutter noise. The inference simultaneously distinguishes signal from noise as well as clustering signal observations into separate source streams. We illustrate the technique via synthetic experiments as well as an experiment to track a mixture of singing birds. Source code is available.
+},
+}
+
+@inproceedings{Stowell:2012c,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Booktitle = {Proceedings of the European Signal Processing Conference (EUSIPCO)},
+	Title = {Framewise heterodyne chirp analysis of birdsong},
+	Pages = {2694--2698},
+	Url = {http://www.elec.qmul.ac.uk/digitalmusic/papers/2012/StowellPlumbley2012eusipco.pdf},
+	Abstract = {Harmonic birdsong is often highly nonstationary, which suggests that standard FFT representations may be of limited suitability. Wavelet and chirplet techniques exist in the literature, but are not often applied to signals such as bird vocalisations, perhaps due to analysis complexity. In this paper we develop a single-scale chirp analysis (computationally accelerated using FFT) which can be treated as an ordinary time-series. We then study a sinusoidal representation simply derived from the peak bins of this time-series. We show that it can lead to improved species classification from birdsong.
+},
+	Year = {2012}}
+
+@incollection{Stowell:2013b,
+	Author = {Stowell, D. and Chew, E.},
+	Booktitle = {Proceedings of the 9th International Symposium on Computer Music Modeling and Retrieval (CMMR)},
+	Pages = {387--399},
+	Keywords = {arcsml},
+	series = {Lecture Notes in Computer Science},
+	number = {7900},
+	Title = {Maximum a Posteriori Estimation of Piecewise Arcs in Tempo Time-Series},
+	abstract = {In musical performances with expressive tempo modulation, the tempo variation can be modelled as a sequence of tempo arcs. Previous authors have used this idea to estimate series of piecewise arc segments from data. In this paper we describe a probabilistic model for a time-series process of this nature, and use this to perform inference of single- and multi-level arc processes from data. We describe an efficient Viterbi-like process for MAP inference of arcs. Our approach is score-agnostic, and together with efficient inference allows for online analysis of performances including improvisations, and can predict immediate future tempo trajectories.
+},
+	Year = {2013},
+}
+
+@inproceedings{Stowell:2012b,
+	Author = {Stowell, D. and Chew, E.},
+	Booktitle = {Proceedings of the 9th International Symposium on Computer Music Modeling and Retrieval (CMMR)},
+	Pages = {634--644},
+	Keywords = {arcsml},
+	Title = {Bayesian MAP estimation of piecewise arcs in tempo time-series},
+	Url = {http://www.elec.qmul.ac.uk/digitalmusic/papers/2012/StowellChew2012cmmr.pdf},
+	abstract = {In musical performances with expressive tempo modulation, the tempo variation can be modelled as a sequence of tempo arcs. Previous authors have used this idea to estimate series of piecewise arc segments from data. In this paper we describe a probabilistic model for a time-series process of this nature, and use this to perform inference of single- and multi-level arc processes from data. We describe an efficient Viterbi-like process for MAP inference of arcs. Our approach is score-agnostic, and together with efficient inference allows for online analysis of performances including improvisations, and can predict immediate future tempo trajectories.
+},
+	Year = {2012},
+}
+
+@inproceedings{Stowell:2012a,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Booktitle = {Proceedings of the 5th International Workshop on Machine Learning and Music (MML12)},
+	Title = {Multi-target pitch tracking of vibrato sources in noise using the {GM-PHD} filter},
+	Url = {http://www.elec.qmul.ac.uk/digitalmusic/papers/2012/StowellPlumbley2012mml.pdf},
+	Year = {2012},
+	Pages = {27--28},
+	Abstract = {Probabilistic approaches to tracking often use single-source Bayesian models; applying these to multi-source tasks is problematic. We apply a principled multi-object tracking implementation, the Gaussian mixture probability hypothesis density filter, to track multiple sources having fixed pitch plus vibrato. We demonstrate high-quality filtering in a synthetic experiment, and find improved tracking using a richer feature set which captures underlying dynamics. Our implementation is available as open-source Python code.
+},
+}
+
+@inproceedings{Stowell:2011f,
+	Author = {Stowell, D. and Barthet, M. and Dixon, S. and Sandler, M.},
+	Booktitle = {Proceedings of the Digital Economy All Hands Conference 2011},
+	Title = {Musicology for the masses: Situating new audio technologies for musicology and music education},
+	Url = {http://de2011.computing.dundee.ac.uk/wp-content/uploads/2011/10/Musicology-for-the-masses-Situating-new-audio-technologies-for-musicology-and-music-education.pdf},
+	Year = {2011},
+}
+
+@inproceedings{Stowell:2011c,
+	Author = {Stowell, D. and McLean, A.},
+	Booktitle = {Proceedings of the {BCS HCI} 2011 Workshop - When Words Fail: What can Music Interaction tell us about {HCI}?},
+	Month = {Jul},
+	Title = {Live music-making: a rich open task requires a rich open interface},
+	Year = {2011},
+	Url = {http://mcl.open.ac.uk/Workshop/uploads/stowell_richopen.pdf},
+	Abstract = {In this position paper we present some themes of our research, strands of which reflect our title's assertion in various ways. Our focus here is on live music-making, in par ticular improvised or part-improvised performances which incorporate digital technologies.
+},
+}
+
+@article{Stowell:2012x,
+	Author = {Stowell, D. and Dixon, S.},
+	Journal = {British Journal of Music Education},
+	Title = {Integration of informal music technologies in secondary school music lessons},
+	Year = {2014},
+	volume={13},
+	issue={1},
+	pages={19--39},
+  doi={10.1017/S026505171300020X},
+  url={http://c4dm.eecs.qmul.ac.uk/papers/2013/StowellDixon2013.pdf},
+  abstract={Technologies such as YouTube, mobile phones and MP3 players are increasingly integrated into secondary school music in the UK. At the same time, the gap between formal and informal music learning is being bridged by the incorporation of students’ preferred music into class activities. We conducted an ethnographic study in two secondary schools in London, investigating the roles of technology in the negotiation of musical concepts in music classes. From this, we report some observations on the relation between formal/informal and authorised/unauthorised activities in class, and some specific observations on the role of YouTube, mobile phones and MP3 players in the class context. In the lessons we observed, these technologies functioned as part of a richly multimodal ecosystem of technologies, combining aspects of formal and informal use. This carries implications for how we plan for the use of technology in the delivery of music education.},
+  annote={
+},
+	}
+
+@inproceedings{Stowell:2011d,
+	Author = {Stowell, D. and Dixon, S.},
+	Booktitle = {Proceedings of the 12th International Society for Music Information Retrieval (ISMIR) Conference},
+	Title = {{MIR} in school? {L}essons from ethnographic observation of secondary school music classes},
+	Pages = {347--352},
+	Year = {2011}}
+
+@incollection{Stowell:2012,
+	Address = {London},
+	Author = {Stowell, D. and McLean, A.},
+	Booktitle = {Music and Human-Computer Interaction},
+	Editor = {Holland, S. and Wilkie, K. and Mulholland, P. and Seago, A.},
+	Isbn = {978-1-4471-2989-9},
+	Publisher = {Springer},
+	Series = {Springer Series on Cultural Computing},
+	Title = {Live music-making: a rich open task requires a rich open interface},
+	Url = {http://www.springer.com/computer/hci/book/978-1-4471-2989-9},
+	Year = {2013},
+}
+
+@inproceedings{Stowell:2011a,
+	Author = {Stowell, D.},
+	Booktitle = {Proceedings of the International Computer Music Conference (ICMC)},
+	Title = {Scheduling and composing with {R}isset eternal accelerando rhythms},
+	Year = {2011}}
+
+@techreport{Stowell:2010e,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Institution = {Centre for Digital Music, Queen Mary University of London},
+	Keywords = {birdsong},
+	Month = {Aug},
+	Number = {C4DM-TR-09-12},
+	Title = {Birdsong and {C4DM}: A survey of {UK} birdsong and machine recognition for music researchers},
+	Url = {http://c4dm.eecs.qmul.ac.uk/papers/2010/Stowell2010-C4DM-TR-09-12-birdsong.pdf},
+	Year = {2010},
+}
+
+@inproceedings{Stowell:2010d,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Booktitle = {Proceedings of the 2010 Workshop on Applications of Pattern Analysis (WAPA2010)},
+	Title = {Cross-associating unlabelled timbre distributions to create expressive musical mappings},
+	Pages = {28--35},
+	Year = {2010},
+	Abstract = {In timbre remapping applications such as concatenative synthesis, an audio signal is used as a template, and a mapping process derives control data for some audio synthesis algorithm such that it produces a new audio signal approximating the perceived trajectory of the original sound. Timbre is a multidimensional attribute with interactions between dimensions, and the control and synthesised signals typically represent sounds with different timbral ranges, so it is non-trivial to design a search process which makes best use of the timbral variety available in the synthesiser. We first discuss our preliminary work applying standard machine-learning techniques for this purpose (PCA, self-organising maps), and the reasons they were not satisfactory. We then describe a novel regression-tree technique which learns associations between unlabelled multidimensional timbre distributions.
+}}
+
+@article{Stowell:2010c,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Doi = {10.1080/09298215.2010.512979},
+	Journal = {Journal of New Music Research},
+	Month = {Sep},
+	Number = {3},
+	Pages = {203--213},
+	Title = {Delayed decision-making in real-time beatbox percussion classification},
+	Volume = {39},
+	Year = {2010},
+	Abstract = {Real-time classification applied to a vocal percussion signal holds potential as an interface for live musical control. In this article we propose a novel approach to resolving the tension between the needs for low-latency reaction and reliable classification, by deferring the final classification decision until after a response has been initiated. We introduce a new dataset of annotated human beatbox recordings, and use it to study the optimal delay for classification accuracy. We then investigate the effect of such delayed decision-making on the quality of the audio output via a MUSHRA-type listening test. Our results show that the effect depends on the output audio type: for popular dance/pop drum sounds the acceptable delay is on the order of 12--35 ms.
+},
+}
+
+@phdthesis{Stowell:2010,
+	Author = {Stowell, D.},
+	School = {School of Electronic Engineering and Computer Science, Queen Mary University of London},
+	Title = {Making music through real-time voice timbre analysis: machine learning and timbral control},
+	Url = {http://www.mcld.co.uk/thesis/},
+	Year = {2010},
+}
+
+@article{Stowell:2011b,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Doi = {10.1080/09298215.2011.596938},
+	Issue = {4},
+	Journal = {Journal of New Music Research},
+	Pages = {325--336},
+	Title = {Learning timbre analogies from unlabelled data by multivariate tree regression},
+	Volume = {40},
+	Year = {2011},
+	Abstract = {Applications such as concatenative synthesis (audio mosaicing) and query-by-examplerequire the ability to search a database using a sound which is qualitatively different from the actual desired result -- for example when using vocal queries to retrieve nonvocal sound. Standard query techniques such as nearest neighbours do not account for this difference between source and target; they perform retrieval but do not learn to make timbral analogies. This paper addresses this issue by considering timbral query as a multivariate regression problem from one timbre distribution onto another. We develop a novel variant of multivariate tree regression: given only a set of unlabelled and unpaired samples from two distributions on the same space, the regression learns a cross-associative mapping which assumes general similarities in structure of the two distributions, yet can accommodate differences in shape at various scales. We demonstrate the technique with a synthetic example and with a concatenative synthesiser.
+},
+}
+
+@inproceedings{Stowell:2010a,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Booktitle = {Proceedings of Sound and Music Computing},
+	Pages = {45--50},
+	Title = {Timbre remapping through a regression-tree technique},
+	Year = {2010},
+	Abstract = {We consider the task of inferring associations between two differently-distributed and unlabelled sets of timbre data. This arises in applications such as concatenative synthesis/ audio mosaicing in which one audio recording is used to control sound synthesis through concatenating fragments of an unrelated source recording. Timbre is a multidimensional attribute with interactions between dimensions, so it is non-trivial to design a search process which makes best use of the timbral variety available in the source recording. We must be able to map from control signals whose timbre features have different distributions from the source material, yet labelling large collections of timbral sounds is often impractical, so we seek an unsupervised technique which can infer relationships between distributions. We present a regression tree technique which learns associations between two unlabelled multidimensional distributions, and apply the technique to a simple timbral concatenative synthesis system. We demonstrate numerically that the mapping makes better use of the source material than a nearest-neighbour search.
+}}
+
+@article{Stowell:2009,
+	Author = {Stowell, D. and Robertson, A. and Bryan-Kinns, N. and Plumbley, M. D.},
+	Doi = {10.1016/j.ijhcs.2009.05.007},
+	Journal = {International Journal of Human-Computer Studies},
+	Month = {Nov},
+	Number = {11},
+	Pages = {960--975},
+	Title = {Evaluation of live human-computer music-making: quantitative and qualitative approaches},
+	Volume = {67},
+	Year = {2009},
+	Abstract = {Live music-making using interactive systems is not completely amenable to traditional HCI evaluation metrics such as task-completion rates. In this paper we discuss quantitative and qualitative approaches which provide opportunities to evaluate the music-making interaction, accounting for aspects which cannot be directly measured or expressed numerically, yet which may be important for participants. We present case studies in the application of a qualitative method based on Discourse Analysis, and a quantitative method based on the Turing Test. We compare and contrast these methods with each other, and with other evaluation approaches used in the literature, and discuss factors affecting which evaluation method(s) are appropriate in a given context.
+},
+}
+
+@article{Stowell:2009d,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Doi = {10.1109/LSP.2009.2017346},
+	Journal = IEEE_J_SPL,
+	Keywords = {Entropy, estimation, multidimensional systems, multidimensional signal processing},
+	Month = {Jun},
+	Number = {6},
+	Pages = {537--540},
+	Title = {Fast multidimensional entropy estimation by k-d partitioning},
+	Volume = {16},
+	Year = {2009},
+}
+
+@incollection{Stowell:2011,
+	Address = {Cambridge, MA},
+	Author = {Stowell, D.},
+	Booktitle = {The {S}uper{C}ollider Book},
+	Chapter = {25},
+	Editor = {Wilson, S. and Cottle, D. and Collins, N.},
+	Publisher = {MIT Press},
+	Title = {Writing Unit Generator Plugins},
+	Url = {http://supercolliderbook.net/},
+	Year = {2011},
+}
+
+@inproceedings{Stowell:2008b,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Booktitle = {Proc. 11th Conference on Digital Audio Effects (DAFx-08)},
+	Keywords = {voice, vocal, timbre, robust, features, entropy, singing, speech, beatboxing},
+	Month = {Sep},
+	Pages = {325--332},
+	Title = {Robustness and independence of voice timbre features under live performance acoustic degradations},
+	Url = {http://www.acoustics.hut.fi/dafx08/papers/dafx08_58.pdf},
+	Year = {2008},
+}
+
+@techreport{Stowell:2008a,
+	Address = {London, UK},
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Institution = {Dept of Electronic Engineering, Queen Mary University of London},
+	Number = {C4DM-TR-08-01},
+	Title = {Characteristics of the beatboxing vocal style},
+	Url = {http://www.elec.qmul.ac.uk/digitalmusic/papers/2008/Stowell08-beatboxvocalstyle-C4DM-TR-08-01.pdf},
+	Year = {2008},
+}
+
+@inproceedings{Stowell:2008,
+	Author = {Stowell, D. and Plumbley, M. D. and Bryan-Kinns, N.},
+	Booktitle = {{N}ew {I}nterfaces for {M}usical {E}xpression},
+	Keywords = {Evaluation, qualitative methods, discourse analysis, voice, timbre, beatboxing},
+	Pages = {81--86},
+	Title = {Discourse analysis evaluation method for expressive musical interfaces},
+	Url = {http://www.elec.qmul.ac.uk/digitalmusic/papers/2008/StowellPlumbley08-nime.pdf},
+	Year = {2008},
+	Abstract = {In the NIME field there is an acknowledged paucity of reliable evaluation. Structured evaluation methods do exist, derived from other areas of HCI, but they largely focus on how precisely users can reproduce musical units. To evaluate the expressive and creative affordances of an interface, we need to go beyond precision; but these aspects are difficult to operationalise, particularly with quantitative methods. However, rigorous qualitative methods do exist and can be used to investigate such topics. We present a methodology based around user studies involving Discourse Analysis of speech. We also present an example of the methodology in use: we evaluate a musical interface which utilises vocal timbre, with a user group of beatboxers.},
+}
+
+@conference{Stowell:2007c,
+	Address = {London},
+	Author = {Stowell, D. and Bryan-Kinns, N. and Plumbley, M. D.},
+	Booktitle = {Digital Music Research Network Plus Two},
+	Month = {Dec},
+	Organization = {Queen Mary, University of London},
+	Title = {Evaluating musical interfaces: Beyond precision? (Poster)},
+	Year = {2007},
+	Abstract = {In the field of new musical instruments/interfaces there is an acknowledged paucity of evaluation (Poupyrev et al 2001). Some work on evaluation methodology does exist, taking its cue from evaluation methods in HCI (Wanderley {\&} Orio 2002), but this evaluates a system in terms of the accuracy in reproduction of musical units such as glissandi or arpeggios. For expressive or improvised performance, precision is not enough: a performer desires an interface that is in some sense intuitive and offers sufficient freedom of expression (Magnusson {\&} Mendieta 2007). Accuracy can be operationalised numerically using HCI methods, but these other desirables cannot easily be condensed to numerical measures.
+
+We present an experimental design which aims to contribute towards the evaluation of musical interfaces by assessing users' experiences more broadly than precision of reproduction. We use qualitative methods to analyse user experience, namely Discourse Analysis performed on semi-structured interviews. We also use a guided exploration technique to allow the user to explore the system in a relatively short period of time.
+
+}}
+
+@inproceedings{Stowell:2007a,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Booktitle = {Proceedings of the Digital Music Research Network (DMRN) Summer Conference},
+	Keywords = {timbre, timbral analysis, performance, Real-time},
+	Month = {Jul},
+	Title = {Pitch-aware real-time timbral remapping},
+	Url = {http://www.elec.qmul.ac.uk/digitalmusic/papers/2007/StowellPlumbley07-dmrn.pdf},
+	Year = {2007},
+	Abstract = {We propose an approach to timbral remapping, a process which maps the timbre variations of one audio source onto the timbre variations of another, for real-time control of synthesis. Puckette [17] has made a foray into such a concept, but there are two important issues which must be addressed: how best to construct the timbre space for remapping purposes; and how to perform this remapping efficiently in real-time. We review some of the acoustical features used in the literature to represent timbre, and consider how to combine these usefully. We also describe some of our recent work on warping timbre space for effective coverage, and on an optimised real-time database lookup procedure suitable for use in live remapping. 
+},
+}
+
+@inproceedings{Stowell:2007,
+	Author = {Stowell, D. and Plumbley, M. D.},
+	Booktitle = {Proceedings of the International Computer Music Conference (ICMC'07)},
+	Month = {Aug},
+	Pages = {312--319},
+	Title = {Adaptive whitening for improved real-time audio onset detection},
+	Url = {http://www.elec.qmul.ac.uk/digitalmusic/papers/2007/StowellPlumbley07-icmc.pdf},
+	Volume = {2},
+	Year = {2007},
+	Abstract = {We describe a new method for preprocessing STFT phase-vocoder frames for improved performance in real-time onset detection, which we term ``adaptive whitening''. The procedure involves normalising the magnitude of each bin according to a recent maximum value for that bin, with the aim of allowing each bin to achieve a similar dynamic range over time, which helps mitigate against the influence of spectral roll-off and strongly-varying dynamics. Adaptive whitening requires no training, is relatively lightweight to compute, and can run in real-time. Yet it can improve onset detector performance by more than ten percentage points (peak F-measure) in some cases, and improves the performance of most of the onset detectors tested.
+
+We present results demonstrating that adaptive whitening can significantly improve the performance of various STFT-based onset detection functions, including functions based on the power, spectral flux, phase deviation, and complex deviation measures. Our results find the process to be especially beneficial for certain types of audio signal (e.g. complex mixtures such as pop music). 
+},
+}
+
+@misc{Stowell:2006,
+	Author = {Stowell, D.},
+	Howpublished = {SuperCollider symposium, Birmingham},
+	Month = {Jul},
+	Title = {{G}enetic {A}lgorithms and Live Evolution},
+	Url = {http://mcld.co.uk/supercollider/DanStowell-GA-SCsymposium_2006.rtf},
+	Year = {2006},
+}
+
