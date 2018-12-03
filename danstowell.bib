@@ -1,3 +1,88 @@
+@article{Morfi:2018j,
+  title={Deep Learning for Audio Event Detection and Tagging on Low-Resource Datasets},
+  author={Morfi, V. and Stowell, D.},
+  journal={Applied Sciences},
+  year={2018},
+  volume={8},
+  issue={8},
+  pages={1397},
+  url={https://doi.org/10.3390/app8081397 },
+  doi={10.3390/app8081397 },
+  abstract={In training a deep learning system to perform audio transcription, two practical problems may arise. Firstly, most datasets are weakly labelled, having only a list of events present in each recording without any temporal information for training. Secondly, deep neural networks need a very large amount of labelled training data to achieve good quality performance, yet in practice it is difficult to collect enough samples for most classes of interest. In this paper, we propose factorising the final task of audio transcription into multiple intermediate tasks in order to improve the training performance when dealing with this kind of low-resource datasets. We evaluate three data-efficient approaches of training a stacked convolutional and recurrent neural network for the intermediate tasks. Our results show that different methods of training have different advantages and disadvantages.},
+}
+
+@article{Stowell:2018badchj,
+   author = {Stowell, D. and Stylianou, Y. and Wood, M. and Pamu{\l}a, H. and Glotin, H.},
+    title = {Automatic acoustic detection of birds through deep learning: the first Bird Audio Detection challenge},
+  journal = {Methods in Ecology and Evolution},
+   eprint = {1807.05812},
+     year = 2018,
+    month = Oct,
+  doi={10.1111/2041-210X.13103},
+  pages = {},
+  abstract={Assessing the presence and abundance of birds is important for monitoring specific species as well as overall ecosystem health. Many birds are most readily detected by their sounds, and thus passive acoustic monitoring is highly appropriate. Yet acoustic monitoring is often held back by practical limitations such as the need for manual configuration, reliance on example sound libraries, low accuracy, low robustness, and limited ability to generalise to novel acoustic conditions. Here we report outcomes from a collaborative data challenge showing that with modern machine learning including deep learning, general-purpose acoustic bird detection can achieve very high retrieval rates in remote monitoring data --- with no manual recalibration, and no pre-training of the detector for the target species or the acoustic conditions in the target environment. Multiple methods were able to attain performance of around 88% AUC (area under the ROC curve), much higher performance than previous general-purpose methods. We present new acoustic monitoring datasets, summarise the machine learning techniques proposed by challenge teams, conduct detailed performance evaluation, and discuss how such approaches to detection can be integrated into remote monitoring projects. },
+}
+
+@incollection{Morfi:2018multitask,
+   author = {{Morfi}, V. and {Stowell}, D.},
+    title = {Deep Learning for Audio Transcription on Low-Resource Datasets},
+booktitle = {Proceedings of the 2018 DCASE workshop,},
+      url = {https://arxiv.org/abs/1807.06972},
+   eprint = {1807.03697},
+     year = 2018,
+  abstract={In training a deep learning system to perform audio transcription, two practical problems may arise. Firstly, most datasets are weakly labelled, having only a list of events present in each recording without any temporal information for training. Secondly, deep neural networks need a very large amount of labelled training data to achieve good quality performance, yet in practice it is difficult to collect enough samples for most classes of interest. In this paper, we propose factorising the final task of audio transcription into multiple intermediate tasks in order to improve the training performance when dealing with this kind of low-resource datasets. We evaluate three data-efficient approaches of training a stacked convolutional and recurrent neural network for the intermediate tasks. Our results show that different methods of training have different advantages and disadvantages. },
+  annote={
+},
+}
+
+
+
+@inproceedings{Yela:2018lva,
+  title={Does k Matter? k-NN Hubness Analysis for Kernel Additive Modelling Vocal Separation},
+  author={Yela, Delia Fano and Stowell, Dan and Sandler, Mark},
+  booktitle={International Conference on Latent Variable Analysis and Signal Separation},
+  pages={280--289},
+  year={2018},
+  organization={Springer},
+  doi={10.1007/978-3-319-93764-9_27},
+  url={https://arxiv.org/abs/1804.02325},
+  abstract={Kernel Additive Modelling (KAM) is a framework for source separation aiming to explicitly model inherent properties of sound sources to help with their identification and separation. KAM separates a given source by applying robust statistics on the selection of time-frequency bins obtained through a source-specific kernel, typically the k-NN function. Even though the parameter k appears to be key for a successful separation, little discussion on its influence or optimisation can be found in the literature. Here we propose a novel method, based on graph theory statistics, to automatically optimise k in a vocal separation task. We introduce the k-NN hubness as an indicator to find a tailored k at a low computational cost. Subsequently, we evaluate our method in comparison to the common approach to choose k. We further discuss the influence and importance of this parameter with illuminating results.},
+}
+
+@inproceedings{Wilkinson:2018lva,
+  title={A Generative Model for Natural Sounds Based on Latent Force Modelling},
+  author={Wilkinson, William J and Reiss, Joshua D and Stowell, Dan},
+  booktitle={International Conference on Latent Variable Analysis and Signal Separation (LVA/ICA)},
+  pages={259--269},
+  year={2018},
+  organization={Springer},
+  doi={10.1007/978-3-319-93764-9_25},
+  url={https://arxiv.org/abs/1802.00680},
+  abstract={Generative models based on subband amplitude envelopes of natural sounds have resulted in convincing synthesis, showing subband amplitude modulation to be a crucial component of auditory perception. Probabilistic latent variable analysis can be particularly insightful, but existing approaches don’t incorporate prior knowledge about the physical behaviour of amplitude envelopes, such as exponential decay or feedback. We use latent force modelling, a probabilistic learning paradigm that encodes physical knowledge into Gaussian process regression, to model correlation across spectral subband envelopes. We augment the standard latent force model approach by explicitly modelling dependencies across multiple time steps. Incorporating this prior knowledge strengthens the interpretation of the latent functions as the source that generated the signal. We examine this interpretation via an experiment showing that sounds generated by sampling from our probabilistic model are perceived to be more realistic than those generated by comparative models based on nonnegative matrix factorisation, even in cases where our model is outperformed from a reconstruction error perspective.},
+}
+
+@inproceedings{Pamula:2017,
+        title={Adaptation of deep learning methods to nocturnal bird audio monitoring},
+        booktitle={LXIV Open Seminar on Acoustics (OSA) 2017},
+        month={Sep},
+        address={Piekary {\.S}l{\c a}skie, Poland},
+        year={2017},
+        author={Hanna Pamu{\l}a and Maciej K{\l}aczynski and Magdalena Remisiewicz and Wies{\l}aw Wszo{\l}ek and Dan Stowell},
+        abstract={Trends in the size of bird populations are good indicators of the general state of the environment.
+Different bird monitoring methods have been developed over the years, but surveys based on
+observations and bird-ringing programmes are the most common techniques. However, counting
+nocturnal migrant birds remains a particularly difficult task so other techniques must be applied. One
+possible method is automatic acoustic monitoring, which can supplement standard bird-monitoring
+schemes.
+We investigated the automatic detection of migrant birds’ night flight calls. Long-term recordings
+were collected during birds’ autumn migration along the Baltic Sea coast. A deep learning method,
+convolutional neural network working on spectrograms, was adapted to detect the migrants’ calls.
+The first results are promising (AUC=96.6%), showing the potential of acoustic methods to
+supplement standard bird-monitoring techniques and to suggest a directions for research.},
+        url={},
+}
+
+
 @incollection{Stowell:2017chapter,
   title={Computational Bioacoustic Scene Analysis},
   author={Stowell, D.},
@@ -522,18 +607,6 @@ archivePrefix = "arXiv",
 	Year = {2008},
 	Abstract = {In the NIME field there is an acknowledged paucity of reliable evaluation. Structured evaluation methods do exist, derived from other areas of HCI, but they largely focus on how precisely users can reproduce musical units. To evaluate the expressive and creative affordances of an interface, we need to go beyond precision; but these aspects are difficult to operationalise, particularly with quantitative methods. However, rigorous qualitative methods do exist and can be used to investigate such topics. We present a methodology based around user studies involving Discourse Analysis of speech. We also present an example of the methodology in use: we evaluate a musical interface which utilises vocal timbre, with a user group of beatboxers.},
 }
-
-%@inproceedings{Stowell:2007a,
-%	Author = {Stowell, D. and Plumbley, M. D.},
-%	Booktitle = {Proceedings of the Digital Music Research Network (DMRN) Summer Conference},
-%	Keywords = {timbre, timbral analysis, performance, Real-time},
-%	Month = {Jul},
-%	Title = {Pitch-aware real-time timbral remapping},
-%	Url = {http://c4dm.eecs.qmul.ac.uk/papers/2007/StowellPlumbley07-dmrn.pdf},
-%	Year = {2007},
-%	Abstract = {We propose an approach to timbral remapping, a process which maps the timbre variations of one audio source onto the timbre variations of another, for real-time control of synthesis. Puckette [17] has made a foray into such a concept, but there are two important issues which must be addressed: how best to construct the timbre space for remapping purposes; and how to perform this remapping efficiently in real-time. We review some of the acoustical features used in the literature to represent timbre, and consider how to combine these usefully. We also describe some of our recent work on warping timbre space for effective coverage, and on an optimised real-time database lookup procedure suitable for use in live remapping. 
-%},
-%}
 
 @inproceedings{Stowell:2007,
 	Author = {Stowell, D. and Plumbley, M. D.},
