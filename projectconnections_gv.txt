@@ -1,0 +1,90 @@
+/*
+fdp -Tpdf projectconnections_gv.txt > projectconnections_gv.pdf && xdg-open projectconnections_gv.pdf
+*/
+graph G {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  layout=fdp
+
+  DS
+
+  IN
+  SS
+
+  RP
+  BGh
+  
+  VK
+  BGr
+  LH
+
+  
+  
+  subgraph clusterFewShot {
+    label="Few-shot SED";
+  }
+
+  subgraph clusterBioacAI {
+    label="BioacAI";
+  }
+
+
+  subgraph clusterIBAC {
+    label="IBAC";
+  }
+
+
+  subgraph clusterVIHAR {
+    label="VIHAR";
+  }
+
+
+  subgraph clusterAC {
+    label="AuViCore";
+  }
+
+  subgraph clusterHeijmans {
+    label="Heijmans";
+    BGr;
+  }
+
+  subgraph clusterAriseDSI {
+    label="Arise DSI";
+    LH;
+  }
+
+  subgraph clusterIndividID {
+    label="Individ ID";
+    IN;
+  }
+
+  subgraph clusterInsect {
+    label="Insect";
+    MF;
+  }
+
+  subgraph clusterEuroID {
+    label="EuroID";
+    BGh;
+    RP;
+    VK;
+  }
+
+  DS -- clusterFewShot;
+    IN -- clusterFewShot;
+    SS -- clusterFewShot;
+  DS -- clusterBioacAI;
+  DS -- clusterIBAC;
+  DS -- clusterVIHAR;
+  DS -- clusterAC;
+  DS -- clusterAriseDSI;
+    VK -- clusterAriseDSI;
+  DS -- clusterHeijmans;
+  DS -- clusterEuroID;
+  DS -- clusterIndividID;
+    PL -- clusterIndividID;
+  DS -- clusterInsect;
+
+}
+
