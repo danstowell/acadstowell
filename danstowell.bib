@@ -1,3 +1,35 @@
+% Encoding: UTF-8
+@InProceedings{Parrilla:2022,
+  author    = {Parrilla, Alberto Garc{\'\i}a Arroba and Stowell, Dan},
+  title     = {Polyphonic sound event detection for highly dense birdsong scenes},
+  booktitle = {Proceedings of DCASE 2022},
+  year      = {2022},
+  abstract  = {One hour before sunrise, one can experience the dawn chorus where birds from different species sing together. In this scenario, high levels of polyphony, as in the number of overlapping sound sources, are prone to happen resulting in a complex acoustic outcome. Sound Event Detection (SED) tasks analyze acoustic scenarios in order to identify the occurring events and their respective temporal information. However, highly dense scenarios can be hard to process and have not been studied in depth. Here we show, using a Convolutional Recurrent Neural Network (CRNN), how birdsong polyphonic scenarios can be detected when dealing with higher polyphony and how effectively this type of model can face a very dense scene with up to 10 overlapping birds. We found that models trained with denser examples (i.e., higher polyphony) learn at a similar rate as models that used simpler samples in their training set. Additionally, the model trained with the densest samples maintained a consistent score for all polyphonies, while the model trained with the least dense samples degraded as the polyphony increased. Our results demonstrate that highly dense acoustic scenarios can be dealt with using CRNNs. We expect that this study serves as a starting point for working on highly populated bird scenarios such as dawn chorus or other dense acoustic problems.},
+  journal   = {arXiv preprint arXiv:2207.06349},
+  url       = {https://dcase.community/documents/workshop2022/proceedings/DCASE2022Workshop_Parrilla_12.pdf},
+}
+
+@InProceedings{Nolasco:2022few,
+  author    = {Nolasco, I and Singh, S and Vidana-Villa, E and Grout, E and Morford, J and Emmerson, M and Jensens, F and Whitehead, H and Kiskin, I and Strandburg-Peshkin, A and others},
+  title     = {Few-shot bioacoustic event detection at the {DCASE} 2022 challenge},
+  booktitle = {Proceedings of DCASE 2022},
+  year      = {2022},
+  abstract  = {Few-shot sound event detection is the task of detecting sound events, despite having only a few labelled examples of the class of interest. This framework is particularly useful in bioacoustics, where often there is a need to annotate very long recordings but the expert annotator time is limited. This paper presents an overview of the second edition of the few-shot bioacoustic sound event detection task included in the DCASE 2022 challenge. A detailed description of the task objectives, dataset, and baselines is presented, together with the main results obtained and characteristics of the submitted systems. This task received submissions from 15 different teams from which 13 scored higher than the baselines. The highest F-score was of 60% on the evaluation set, which leads to a huge improvement over last year's edition. Highly-performing methods made use of prototypical networks, transductive learning, and addressed the variable length of events from all target classes. Furthermore, by analysing results on each of the subsets we can identify the main difficulties that the systems face, and conclude that few-show bioacoustic sound event detection remains an open challenge.},
+  journal   = {arXiv preprint arXiv:2207.07911},
+  url       = {https://dcase.community/documents/workshop2022/proceedings/DCASE2022Workshop_Nolasco_14.pdf},
+}
+
+@TechReport{Stowell:2022lorentz,
+  author   = {Stowell, Dan and Black, Caitlin and Noriega, Florencia and Sethi, Sarab S},
+  title    = {Full-Stack Bioacoustics: Field Kit to {AI} to Action (Workshop report)},
+  year     = {2022},
+  abstract = {Acoustic data (sound recordings) are a vital source of evidence for detecting, counting, and distinguishing wildlife. This domain of "bioacoustics" has grown in the past decade due to the massive advances in signal processing and machine learning, recording devices, and the capacity of data processing and storage. Numerous research papers describe the use of Raspberry Pi or similar devices for acoustic monitoring, and other research papers describe automatic classification of animal sounds by machine learning. But for most ecologists, zoologists, conservationists, the pieces of the puzzle do not come together: the domain is fragmented. In this Lorentz workshop we bridge this gap by bringing together leading exponents of open hardware and open-source software for bioacoustic monitoring and machine learning, as well as ecologists and other field researchers. We share skills while also building a vision for the future development of "bioacoustic AI".
+
+This report contains an overview of the workshop aims and structure, as well as reports from the six groups.},
+  journal  = {arXiv preprint arXiv:2210.07685},
+  url      = {https://arxiv.org/abs/2210.07685},
+}
+
 @article{Stowell:2022review,
   title={Computational bioacoustics with deep learning: a review and roadmap},
   author={Stowell, Dan},
