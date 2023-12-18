@@ -1,25 +1,97 @@
 % Encoding: UTF-8
 
+@inproceedings{Vahidi:2023,
+  title={Perceptual musical similarity metric learning with graph neural networks},
+  author={Vahidi, Cyrus and Singh, Shubhr and Benetos, Emmanouil and Phan, Huy and Stowell, Dan and Fazekas, Gy{\"o}rgy and Lagrange, Mathieu},
+  booktitle={2023 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)},
+  pages={1--5},
+  year={2023},
+  organization={IEEE},
+  doi={10.1109/WASPAA58266.2023.10248151},
+  abstract={Sound retrieval for assisted music composition depends on evaluating similarity between musical instrument sounds, which is partly influenced by playing techniques. Previous methods utilizing Euclidean nearest neighbours over acoustic features show some limitations in retrieving sounds sharing equivalent timbral properties, but potentially generated using a different instrument, playing technique, pitch or dynamic. In this paper, we present a metric learning system designed to approximate human similarity judgments between extended musical playing techniques using graph neural networks. Such structure is a natural candidate for solving similarity retrieval tasks, yet have seen little application in modelling perceptual music similarity. We optimize a Graph Convolutional Network (GCN) over acoustic features via a proxy metric learning loss to learn embeddings that reflect perceptual similarities. Specifically, we construct the graph’s adjacency matrix from the acoustic data manifold with an example-wise adaptive k-nearest neighbourhood graph: Adaptive Neighbourhood Graph Neural Network (AN-GNN). Our approach achieves 96.4% retrieval accuracy compared to 38.5% with a Euclidean metric and 86.0% with a multilayer perceptron (MLP), while effectively considering retrievals from distinct playing techniques to the query example.}
+}
+
+@article{Hoye:2023,
+  title={Modern Approaches to the Monitoring of Biоdiversity (MAMBO)},
+  author={H{\o}ye, Toke and August, Tom and Balzan, Mario V and Biesmeijer, Koos and Bonnet, Pierre and Breeze, Tom and Dominik, Christophe and Gerard, France and Joly, Alexis and Kalkman, Vincent and others},
+  journal={Research Ideas and Outcomes},
+  volume={9},
+  pages={e116951},
+  year={2023},
+  publisher={Pensoft Publishers},
+  abstract={EU policies, such as the EU biodiversity strategy 2030 and the Birds and Habitats
+Directives, demand unbiased, integrated and regularly updated biodiversity and ecosystem
+service data. However, efforts to monitor wildlife and other species groups are spatially and
+temporally fragmented, taxonomically biased, and lack integration in Europe. To bridge this
+gap, the MAMBO project will develop, test and implement enabling tools for monitoring
+conservation status and ecological requirements of species and habitats for which
+knowledge gaps still exist. MAMBO brings together the technical expertise of computer science, remote sensing, social science expertise on human-technology interactions,
+environmental economy, and citizen science, with the biological expertise on species,
+ecology, and conservation biology. MAMBO is built around stakeholder engagement and
+knowledge exchange (WP1) and the integration of new technology with existing research
+infrastructures (WP2). MAMBO will develop, test, and demonstrate new tools for
+monitoring species (WP3) and habitats (WP4) in a co-design process to create novel
+standards for species and habitat monitoring across the EU and beyond. MAMBO will work
+with stakeholders to identify user and policy needs for biodiversity monitoring and
+investigate the requirements for setting up a virtual lab to automate workflow deployment
+and efficient computing of the vast data streams (from on the ground sensors, and remote
+sensing) required to improve monitoring activities across Europe (WP4). Together with
+stakeholders, MAMBO will assess these new tools at demonstration sites distributed
+across Europe (WP5) to identify bottlenecks, analyze the cost-effectiveness of different
+tools, integrate data streams and upscale results (WP6). This will feed into the co-design of
+future, improved and more cost-effective monitoring schemes for species and habitats
+using novel technologies (WP7), and thus lead to a better management of protected sites
+and species.}
+}
+
+@misc{Chetouani:2023,
+  title={Vocal interactivity in-and-between humans, animals and robots},
+  author={Chetouani, Mohamed and Briefer, Elodie F and Dassow, Angela and Marxer, Ricard and Moore, Roger K and Obin, Nicolas and Stowell, Dan},
+  journal={Interaction Studies},
+  volume={24},
+  number={1},
+  pages={1--4},
+  year={2023},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{Nolasco:2023,
+	author={Nolasco, I. and Singh, S. and Morfi, V. and Lostanlen V., Strandburg-Peshkin A. and Vidaña-Vila, E. and Gill, L. and Pamuła, H. and Whitehead, H. and Kiskin, I. and Jensen, F. H. and Morford, J. and Emmerson, M. G. and Versace, E. and Grout, E. and Liu, H. and Ghani, B. and Stowell, D.},
+	title={Learning to detect an animal sound from five examples},
+	journal={Ecological Informatics},
+	year=2023,
+	doi={},
+	url={https://www.sciencedirect.com/science/article/pii/S157495412300287X},
+	abstract={Automatic detection and classification of animal sounds has many applications in biodiversity monitoring and animal behavior. In the past twenty years, the volume of digitised wildlife sound available has massively increased, and automatic classification through deep learning now shows strong results. However, bioacoustics is not a single task but a vast range of small-scale tasks (such as individual ID, call type, emotional indication) with wide variety in data characteristics, and most bioacoustic tasks do not come with strongly-labelled training data. The standard paradigm of supervised learning, focussed on a single large-scale dataset and/or a generic pre-trained algorithm, is insufficient. In this work we recast bioacoustic sound event detection within the AI framework of few-shot learning. We adapt this framework to sound event detection, such that a system can be given the annotated start/end times of as few as 5 events, and can then detect events in long-duration audio—even when the sound category was not known at the time of algorithm training. We introduce a collection of open datasets designed to strongly test a system’s ability to perform few-shot sound event detections, and we present the results of a public contest to address the task. Our analysis shows that prototypical networks are a very common used strategy and they perform well when enhanced with adaptations for general characteristics of animal sounds. However, systems with high time resolution capabilities perform the best in this challenge. We demonstrate that widely-varying sound event durations are an important factor in performance, as well as non-stationarity, i.e. gradual changes in conditions throughout the duration of a recording. For fine-grained bio­acoustic recognition tasks without massive annotated training data, our analysis demonstrate that few-shot sound event detection is a powerful new method, strongly outperforming traditional signal-processing detection methods in the fully automated scenario.}
+}
+
+@inproceedings{Pucci:2023,
+	title = {Comparison between transformers and convolutional models for fine-grained classification of insects},
+	year = 2023,
+	author = {Pucci, R. and Kalkman, V. and Stowell, D.},
+	booktitle = {Camera traps, AI, and Ecology - 3rd international workshop on camera traps and AI analysis for wildlife monitoring},
+	url  = {https://arxiv.org/abs/2307.11112},
+	abstract={Fine-grained classification is challenging due to the difficulty of finding discriminatory features. This problem is exacerbated when applied to identifying species within the same taxonomical class. This is because species are often sharing morphological characteristics that make them difficult to differentiate. We consider the taxonomical class of Insecta. The identification of insects is essential in biodiversity monitoring as they are one of the inhabitants at the base of many ecosystems. Citizen science is doing brilliant work of collecting images of insects in the wild giving the possibility to experts to create improved distribution maps in all countries. We have billions of images that need to be automatically classified and deep neural network algorithms are one of the main techniques explored for fine-grained tasks. At the SOTA, the field of deep learning algorithms is extremely fruitful, so how to identify the algorithm to use? We focus on Odonata and Coleoptera orders, and we propose an initial comparative study to analyse the two best-known layer structures for computer vision: transformer and convolutional layers. We compare the performance of T2TViT, a fully transformer-base, EfficientNet, a fully convolutional-base, and ViTAE, a hybrid. We analyse the performance of the three models in identical conditions evaluating the performance per species, per morph together with sex, the inference time, and the overall performance with unbalanced datasets of images from smartphones. Although we observe high performances with all three families of models, our analysis shows that the hybrid model outperforms the fully convolutional-base and fully transformer-base models on accuracy performance and the fully transformer-base model outperforms the others on inference speed and, these prove the transformer to be robust to the shortage of samples and to be faster at inference time. }
+}
+
 @ARTICLE{Faiss:2023,
        author = {{Fai{\ss}}, Marius and {Stowell}, Dan},
         title = "{Adaptive Representations of Sound for Automatic Insect Recognition}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing},
+      journal = {PLOS Computational Biology},
          year = 2023,
-        month = apr,
+        month = oct,
           eid = {arXiv:2304.12739},
         pages = {arXiv:2304.12739},
           doi = {10.48550/arXiv.2304.12739},
 archivePrefix = {arXiv},
        eprint = {2304.12739},
  primaryClass = {cs.SD},
-  doi={},
+  doi={10.1371/journal.pcbi.1011541},
+  url={https://doi.org/10.1371/journal.pcbi.1011541},
   abstract={Insect population numbers and biodiversity have been rapidly declining with time, and monitoring these trends has become increasingly important for conservation measures to be effectively implemented. But monitoring methods are often invasive, time and resource intense, and prone to various biases. Many insect species produce characteristic sounds that can easily be detected and recorded without large cost or effort. Using deep learning methods, insect sounds from field recordings could be automatically detected and classified to monitor biodiversity and species distribution ranges. We implement this using recently published datasets of insect sounds (Orthoptera and Cicadidae) and machine learning methods and evaluate their potential for acoustic insect monitoring. We compare the performance of the conventional spectrogram-based audio representation against LEAF, a new adaptive and waveform-based frontend. LEAF achieved better classification performance than the mel-spectrogram frontend by adapting its feature extraction parameters during training. This result is encouraging for future implementations of deep learning technology for automatic insect sound recognition, especially as larger datasets become available. },
   annote={
 },
 }
-
-
 
 @article{Zandberg:2022,
   title={Bird song comparison using deep learning trained from avian perceptual judgments},
